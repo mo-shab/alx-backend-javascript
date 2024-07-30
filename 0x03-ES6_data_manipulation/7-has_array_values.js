@@ -1,8 +1,3 @@
-export default function hasValuesFromArray (set, array) {
-    for (let i = 0; i< array.length; i++) {
-        if (!set.has(array[i])) {
-            return false;
-        }
-    }
-    return true;
-}
+const hasValuesFromArray = (set, array) => array.every((value) => set.has(value));
+
+export default hasValuesFromArray;
