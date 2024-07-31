@@ -3,8 +3,8 @@ import { RowID, RowElement } from './interface';
 import CRUD from './crud';
 
 const row: RowElement = {
-  firstName: 'Guillaume',
-  lastName: 'Salva',
+  firstName: 'Monir',
+  lastName: 'El grand',
 }
 
 const newRowID: RowID = CRUD.insertRow(row);
